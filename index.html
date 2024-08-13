@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="abc" id="abc">
+        <div class="container">
+            <div id="containerLeftTextArea" class="container-textarea-left">
+                <textarea class="textarea-left" placeholder="Ingrese el texto a encriptar o desencriptar aquí." cols="120" rows="30" id="textarea-left"></textarea>
+            </div>
+            <div class="container-textarea-right">
+                <div id="text__changing" class="container-textarea-right__changing">
+                    <img src="assets/muneco.png" id="muneco-img">
+                    <h3 id="message">Ningún mensaje fue encontrado.</h3>
+                    <p id="paragraph">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div>
+                    <textarea class="textarea-right" id="textarea-right" disabled placeholder="Texto encriptado aqui" cols="50" rows="30"></textarea>
+
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-buttons">
+                <button class="encrypt-button" id="encrypt-button">Encriptar</button>
+                <button class="decrypt-button" id="decrypt-button">Desencriptar</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html> 
