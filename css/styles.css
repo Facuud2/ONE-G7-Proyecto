@@ -34,7 +34,7 @@
     flex-flow: row wrap;
     align-items: center;
 }
- 
+
 .container .textarea-left {
     color: var(--text-color);
     background-color: var(--background-color);

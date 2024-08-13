@@ -83,4 +83,3 @@ decryptButton.addEventListener("click", () => {
     let textDecrypt = decryptText(leftTextarea.value);
     rightTextarea.value = textDecrypt;
 })
-
